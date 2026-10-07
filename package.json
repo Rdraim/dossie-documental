@@ -1,0 +1,29 @@
+{
+  "name": "dossie-documental",
+  "version": "1.0.0",
+  "description": "Revisões imutáveis de documentos e acompanhamento de vencimentos.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md",
+    "README.en-US.md",
+    "README.es-AR.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check:public": "node tools/check-public-content.mjs",
+    "example": "node examples/basic.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "author": "Rodrigo Rodrigues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdraim/dossie-documental.git"
+  }
+}

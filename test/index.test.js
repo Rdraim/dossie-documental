@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {registrarRevisao, pendencias} from '../src/index.js';
+test('revisions preserve history and choose latest',()=>{const a=registrarRevisao([],{id:'A',referencia:'doc-v1',registradoEm:'2026-01-01',venceEm:'2026-02-01'});const b=registrarRevisao(a,{id:'A',referencia:'doc-v2',registradoEm:'2026-01-02',venceEm:'2026-05-01'});assert.equal(a.length,1);assert.equal(b[1].versao,2);assert.equal(pendencias(b,'2026-03-01')[0].situacao,'vigente');});
+test('invalid and reversed dates fail',()=>{assert.throws(()=>registrarRevisao([],{id:'A',referencia:'x',registradoEm:'2026-02-30'}));assert.throws(()=>registrarRevisao([],{id:'A',referencia:'x',registradoEm:'2026-03-01',venceEm:'2026-02-01'}),RangeError);});
+test('expiration boundaries use UTC days',()=>{const a=registrarRevisao([],{id:'A',referencia:'x',registradoEm:'2026-01-01',venceEm:'2026-02-01'});assert.equal(pendencias(a,'2026-02-01')[0].dias,0);assert.equal(pendencias(a,'2026-02-02')[0].situacao,'vencido');});
