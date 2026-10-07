@@ -9,7 +9,7 @@
 ![dossie-documental](assets/support/project-pt-br.svg)
 
 <!-- public-badges:start -->
-[![license](assets/support/badge-license.svg)](LICENSE) [![CI](assets/support/badge-ci.svg)](https://github.com/Rdraim/dossie-documental/actions) [![release](assets/support/badge-release.svg)](https://github.com/Rdraim/dossie-documental/releases)
+[![license](assets/support/badge-license.svg)](LICENSE) [![CI](assets/support/badge-ci.svg)](https://github.com/Rdraim/dossie-documental/actions) [![release](assets/support/badge-release.svg)](https://github.com/Rdraim/dossie-documental/releases) [![Git](assets/support/badge-git.svg)](https://github.com/Rdraim/dossie-documental/commits/main)
 <!-- public-badges:end -->
 
 <p>
