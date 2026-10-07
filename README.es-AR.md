@@ -8,7 +8,9 @@
 
 ![dossie-documental](assets/support/project-es-ar.svg)
 
-[![MIT](https://img.shields.io/github/license/Rdraim/dossie-documental?style=flat)](LICENSE) [![CI](https://img.shields.io/github/actions/workflow/status/Rdraim/dossie-documental/ci.yml?branch=main&label=CI&style=flat)](https://github.com/Rdraim/dossie-documental/actions) [![Release](https://img.shields.io/github/v/release/Rdraim/dossie-documental?style=flat)](https://github.com/Rdraim/dossie-documental/releases) [![Git](https://img.shields.io/github/last-commit/Rdraim/dossie-documental?label=Git&style=flat)](https://github.com/Rdraim/dossie-documental/commits/main) [![Stars](https://img.shields.io/github/stars/Rdraim/dossie-documental?style=social)](https://github.com/Rdraim/dossie-documental/stargazers) [![Forks](https://img.shields.io/github/forks/Rdraim/dossie-documental?style=social)](https://github.com/Rdraim/dossie-documental/forks)
+<!-- public-badges:start -->
+[![license](assets/support/badge-license.svg)](LICENSE) [![CI](assets/support/badge-ci.svg)](https://github.com/Rdraim/dossie-documental/actions) [![release](assets/support/badge-release.svg)](https://github.com/Rdraim/dossie-documental/releases) [![Git](assets/support/badge-git.svg)](https://github.com/Rdraim/dossie-documental/commits/main)
+<!-- public-badges:end -->
 
 <p>
   <a href="https://github.com/Rdraim/dossie-documental/tree/main/examples"><img src="assets/support/action-0-es-ar.svg" height="40" width="200" alt="Ver ejemplos"></a>
